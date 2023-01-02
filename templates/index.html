@@ -8,20 +8,18 @@
     <body>
         <div class="desk">
             <div class="window_submit">
-                <input type="text" placeholder="Message" id="submit"></input>
-                <input type="text" placeholder="Code" id="submit"></input>
-                <button type="button" onclick="loadDoc()">ENCODE</button>
+                <input type="text" placeholder="Message" id="message"></input>
+                <input type="text" placeholder="Code" id="code"></input>
+                <button type="button" onclick="loadMessageAndCode()">ENCODE</button>
             </div>
             <div class="window_choose" id="choose">
             </div>
             <div class="window_submit">
-                <input type="text" placeholder="Message" id="submit"></input>
-                <input type="text" placeholder="Polynom" id="submit"></input>
-                <button type="button">DECODE</button>
+                <input type="text" placeholder="Message" id="cipher"></input>
+                <input type="text" placeholder="Polynom" id="polynom"></input>
+                <button type="button" onclick="sendToDecode()">DECODE</button>
             </div>
-            <div class="window_submit">
-                <input type="text" placeholder="Message" id="submit"></input>
-                <input type="text" placeholder="Polynom" id="submit"></input>
+            <div class="window_results" id="results">
             </div>
         </div>
     </body>

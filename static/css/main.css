@@ -1,7 +1,7 @@
 body{
 background-image: url("../pictures/background.webp");
 display: grid;
-font: url("../fonts/sserife.fon");
+font-family: sans-serif;
 }
 .desk{
     position: absolute;
@@ -36,6 +36,20 @@ font: url("../fonts/sserife.fon");
     align-items: center;
     grid-template-rows: 1fr 1fr 15%;
 }
+.window_results{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.window_results p:first-of-type {
+    margin-top: 40px;
+}
+p{
+    margin: 5px 40px;
+    font-size: medium;
+    color: hsl(0, 0%, 46%);
+}
 input[type="text"]{
     border: none;
     border-bottom: solid hsl(0, 0%, 80%) 1px;
@@ -43,6 +57,7 @@ input[type="text"]{
     margin: 0px 40px;
     font-size: medium;
     color: hsl(0, 0%, 46%);
+    font-family: sans-serif;
 }
 input[type="text"]:focus{
     outline: none;
@@ -66,6 +81,7 @@ button{
     padding: 0px;
     background-color: white;
     color: hsl(0, 0%, 46%);
+    font-family: sans-serif;
 }
 
 .window_submit > button{
